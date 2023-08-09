@@ -1,0 +1,58 @@
+.cellBorder{
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 2em;
+}
+
+@media (min-width: 768px) { 
+    flex-direction: row; 
+   }
+
+.marginCont {
+    margin-left: 1rem; 
+    margin-bottom: 2.5rem; 
+}
+
+.cellCont {
+    width: 0.75rem; 
+    height: 0.75rem; 
+}
+
+.cellPara {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    justify-content: flex-start; 
+    align-items: center; 
+    font-size: 0.75rem;
+
+}
+
+.cellYear {
+    display: inline-block; 
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    border: 1px solid var(--second);
+    border-radius: 0.375rem; 
+    font-weight: 600; 
+    color: var(--second); 
+
+}
+
+.cellTitle {
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+    color: var(--primary);
+}
+.cellDur{
+    margin: 1px 0px 1px 0px;
+    line-height: 1;
+}
+
+.cellDetail {
+    margin: 2px 0px 2px 0px;
+}

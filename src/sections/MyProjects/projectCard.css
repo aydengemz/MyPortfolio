@@ -1,0 +1,64 @@
+.projSkill {
+  display: block;
+  cursor: pointer;
+  padding: 0.4em 0.7em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  transition: 0.3s;
+  margin-bottom: 0.5em;
+}
+.projSkill:hover{
+  transform: translateY(-3px);
+}
+
+.projLink{
+  margin: 0em 0.5em 0em 0.5em;
+}
+.projLink:hover .bar{
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+.linkCont{
+  margin-top: 0.8em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.iconLink {
+  color: var(--second);
+  margin-right: 0.8em;
+}
+
+.projectCont {
+  padding: 2em;
+  text-align: center;
+  outline: 2px solid var(--second);
+  border-radius: 1em;
+  transition: transform 0.2s linear;
+}
+
+.projectCont h3 {
+  color: var(--primary);
+}
+
+.projectCont:hover {
+  transform: translateY(-3px)
+}
+.projectCont:hover, 
+.projectCont:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 1em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--primary); }
+}
+
+
+.projectText {
+  margin: 0.5em 0em 0.5em 0;
+  font-size: 0.9rem;
+  color: var(--textC);
+}

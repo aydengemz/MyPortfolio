@@ -1,0 +1,40 @@
+
+
+.WrapUpText {
+    color: var(--primary);
+}
+
+.upButton{
+    color: var(--second);
+    font-size: 50px;
+    border: 2px solid var(--second);
+    margin-bottom: 0.25em;
+    border-radius: 1em;
+    transition: 0.3s;
+}
+
+.upButton:hover,
+.upButton:focus {
+  box-shadow: inset 0 0 0 2em var(--primary);
+  color: white;
+}
+
+
+.footerCont{
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+
+.footerCont p {
+    color: var(--textC);
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+
+

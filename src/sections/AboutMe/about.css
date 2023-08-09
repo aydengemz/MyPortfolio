@@ -1,0 +1,121 @@
+.impor {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.firstCont {
+  margin: 1em 7em 1em 7em;
+  padding: 1em;
+  border-radius: 2em;
+  flex-direction: column;
+}
+#vertHeader {
+  color: var(--second);
+  margin: 1em;
+}
+
+.AboutSide {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 2em;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+img {
+  margin: 2em;
+  box-shadow: var(--shadow);
+  flex: 1;
+  border-radius: 2em;
+  border: 2px solid var(--second);
+  width: 50%;
+  height: 50%;
+  min-width: 300px;
+  min-height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+img:hover {
+  opacity: 1;
+}
+
+.textSide {
+  flex: 1;
+  background: none;
+}
+
+.aboutTextBig {
+  padding: 1em;
+  color: var(--second);
+  border-radius: 1em;
+  border: 2px solid var(--textC);
+  font-size: 0.9em;
+  margin: 0em 0em 1em 0em;
+}
+.aboutTextSmall {
+  padding: 0.8em;
+  color: var(--second);
+  border-radius: 1em;
+  border: 2px solid var(--textC);
+  font-size: 0.8em;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutTextSmall span {
+  margin: 0.5em;
+}
+
+.skillbutton {
+  display: block;
+  cursor: pointer;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skillbutton:hover {
+  transform: translateY(-3px);
+}
+
+@media screen and (min-width: 1100px) {
+  .aboutTextBig {
+    font-size: 1em;
+  }
+  .aboutTextSmall {
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+  }
+  .AboutSide {
+    flex-direction: row;
+  }
+  img {
+    margin: 0em 2em 0em 0em;
+  }
+  #vertHeader {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+  }
+}
+
+.skillCont {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillitem {
+  margin: 0.5em;
+  border: 1px solid var(--second);
+  border-radius: 1em;
+  color: var(--textC);
+  font-size: 0.8em;
+}

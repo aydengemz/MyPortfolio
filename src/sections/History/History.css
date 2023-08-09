@@ -1,0 +1,24 @@
+.timelineContainer {
+    display: flex; 
+    margin-top: 5rem;
+    margin-bottom: 3rem; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    color: var(--second); 
+}
+.c2 {
+    padding: 2em;
+    border: 2px solid var(--second);
+    border-radius: 2em;
+    width: 60%;
+}
+
+@media (max-width: 768px){
+    .timelineContainer {
+        flex-direction: row;
+    }
+    .c2 {
+        width: 7/12;
+    }
+}

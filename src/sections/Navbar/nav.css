@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Raleway:wght@100;400;600&display=swap');
+.logo {
+  color: var(--primary);
+  font-size: 1.8em;
+}
+
+.header {
+    height: 8em;
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: var(--second);
+  }
+
+.navbarCont{
+    margin-right: 1.5em;
+    display: flex;
+  }
+.navitem {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.5em;
+    color: var(--textC);
+  }
+  
+  .navitem:hover .bar {
+      opacity: 1;
+      transform: translateY(-5px);
+  }
+  
