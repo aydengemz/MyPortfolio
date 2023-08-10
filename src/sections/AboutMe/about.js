@@ -5,7 +5,10 @@ const About = () => {
     <div id="about" className="firstCont center">
       <div className="AboutSide">
         <h2 id="vertHeader">About Me :D</h2>
-        <img src="../../../profile.png" alt="PFP"></img>
+        <img
+          src="https://github.com/aydengemz/MyPortfolio/blob/f6fb15975b64a320b3526796bf262194ea1ffaf6/public/profile.png?raw=true"
+          alt="PFP"
+        ></img>
         <div className="textSide">
           <p className="aboutTextBig">
             Hi! My name is <span className="impor">Ayden</span> and I am
@@ -13,14 +16,14 @@ const About = () => {
             <span className="impor">Carnegie Mellon University. </span>
             I've always had a passion for{" "}
             <span className="impor">Web Development</span>, but recently I have
-            developed an inerest for
+            developed an interest for
             <span className="impor">AI/Machine Learning!</span> In my free time
             I also like to{" "}
             <span className="impor">travel, swim, and play piano.</span> Overall
             though, I am a spontaneous person and just like to go with the flow.
           </p>
           <div className="aboutTextSmall">
-            <span>Technologies I've been using: </span>
+            <span>Technologies I'm Proficient With: </span>
             <section id="skills">
               <ul className="skillCont">
                 <li className="skillitem skillbutton">React</li>

@@ -24,6 +24,7 @@
 .contact {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 2.4em;
 }
 
@@ -36,6 +37,4 @@
   transform: translateY(-5px);
 }
 
-.outlinedButton {
-  margin-right: 1em;
-}
+

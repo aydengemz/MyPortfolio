@@ -8,7 +8,7 @@ import "./myprojects.css";
 const MyProjects = () => {
   return (
     <section id="projects" className="section projects">
-      <h2 className="capHeader">Projects</h2>
+      <h2 className="capHeader">My Projects</h2>
 
       <div className="projList">
         <ProjectCard

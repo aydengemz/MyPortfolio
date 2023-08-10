@@ -13,8 +13,8 @@ const Hero = () => {
       <h2 className="title">Aspiring Full-Stack Developer</h2>
 
       <div className="contact center">
-        <a href="">
-          <span type="button" className="outlinedButton">
+        <a href="" target="_blank">
+            <span type="button" className="outlinedButton">
             Resume
           </span>
         </a>

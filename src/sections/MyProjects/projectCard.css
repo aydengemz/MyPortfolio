@@ -32,7 +32,7 @@
 }
 
 .projectCont {
-  padding: 2em;
+  padding: 2em 2em 1.5em 2em;
   text-align: center;
   outline: 2px solid var(--second);
   border-radius: 1em;
@@ -43,13 +43,10 @@
   color: var(--primary);
 }
 
-.projectCont:hover {
-  transform: translateY(-3px)
-}
-.projectCont:hover, 
-.projectCont:focus {
-  animation: pulse 1s;
+.projectCont:hover{
+  animation: pulse 0.8s;
   box-shadow: 0 0 0 1em transparent;
+  transform: scale(1.01);
 }
 
 @keyframes pulse {
