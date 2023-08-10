@@ -2,5 +2,5 @@
  
 [Link To Website!](https://aydengemz.github.io/MyPortfolio/)
 
-Made with React! \ 
+Made with React!\
 Thanks for Visiting my Page!
