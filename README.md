@@ -1,6 +1,6 @@
 # Portfolio - Ayden Xu
  
-Link:
+[Link To Website!](https://aydengemz.github.io/MyPortfolio/)
 
-Made with React!
-Thanks for Visiting my Page! :D
+Made with React!\
+Thanks for Visiting my Page!
