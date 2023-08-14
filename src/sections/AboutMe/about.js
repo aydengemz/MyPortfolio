@@ -6,7 +6,7 @@ const About = () => {
       <div className="AboutSide">
         <h2 id="vertHeader">About Me :D</h2>
         <img
-          src="https://github.com/aydengemz/MyPortfolio/blob/f6fb15975b64a320b3526796bf262194ea1ffaf6/public/profile.png?raw=true"
+          src="../../../public/profile.jpg"
           alt="PFP"
         ></img>
         <div className="textSide">

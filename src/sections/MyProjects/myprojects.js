@@ -22,7 +22,7 @@ const MyProjects = () => {
             { id: "2", content: "Hugging Face" },
           ]}
           links={[
-            { id: "0", link: "github.com/aydengemz/genai", icon: GitHubIcon },
+            { id: "0", link: "https://github.com/aydengemz/GenAI", icon: GitHubIcon },
             {
               id: "1",
               link: "https://www.figma.com/file/E9WcNTZPc1gCoj2M900GQf/GenAI-Diagrams?type=whiteboard&node-id=0%3A1&t=4TeBcJ3t1ksPyYsr-1",
