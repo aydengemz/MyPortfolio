@@ -42,27 +42,9 @@ const MyProjects = () => {
 
         />
         <ProjectCard
-          project="AWS Amplify"
-          content="This app was made to practice using the different AWS services, and to practice using CRUD APIs.
-           I was drawn by the potential that the cloud holds so I made this app to dive deeper into it."
-          skills={[
-            { id: "3", content: "NextJS" },
-            { id: "4", content: "AWS" },
-            { id: "7", content: "CRUD" },
-          ]}
-          links={[
-            {
-              id: "0",
-              link: "https://github.com/aydengemz/AmplifyApp",
-              icon: GitHubIcon,
-            },
-          ]}
-          image="https://docs.amplify.aws/assets/ogp.jpg"
-        ></ProjectCard>
-        <ProjectCard
           project="Penguin Shooter"
           content="A game made with Python where you are a Penguin and try to survive an onslaught of different shapes. 
-          Defeating eneimes gives you EXP to level up and leveling up give you power ups! "
+          Defeating eneimes gives you EXP to level up and leveling up gives you power ups! "
           skills={[
             { id: "5", content: "Python" },
             { id: "6", content: "Algorithms" },
@@ -82,6 +64,24 @@ const MyProjects = () => {
           image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/penguinshooter.png?raw=true"
         ></ProjectCard>
                 <ProjectCard
+          project="Amplify App"
+          content="This app was made to practice using the different AWS services, and to practice using CRUD APIs.
+           I was drawn by the potential that the cloud holds so I made this app to dive deeper into it."
+          skills={[
+            { id: "3", content: "NextJS" },
+            { id: "4", content: "AWS" },
+            { id: "7", content: "CRUD" },
+          ]}
+          links={[
+            {
+              id: "0",
+              link: "https://github.com/aydengemz/AmplifyApp",
+              icon: GitHubIcon,
+            },
+          ]}
+          image="https://docs.amplify.aws/assets/ogp.jpg"
+        ></ProjectCard>
+                <ProjectCard
           project="EcoEye"
           content="Used Google Image and IBM Watson APIs to label and classify various waste after taking or uploading an image.
           Used Firebase as the database for storing past snapshots.
@@ -99,7 +99,7 @@ const MyProjects = () => {
               icon: YouTubeIcon,
             },
           ]}
-          image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/penguinshooter.png?raw=true"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/ecoeye.png?raw=true"
         ></ProjectCard>
       </div>
     </section>

@@ -35,10 +35,10 @@
   transition: 0.2s ease;
   width: 50%;
   height: 40%;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 250px;
+  min-height: 250px;
   object-fit: cover;
-  aspect-ratio: 0.9/1;
+  aspect-ratio: 1/1;
   margin-bottom: 1.25em;
 }
 
@@ -52,29 +52,16 @@
   padding: 0em 1em 0em 1em;
   color: var(--second);
   border-radius: 1em;
-  margin-bottom: 1em;
+  margin: 1em;
 }
 .aboutTextSmall {
   display: flex;
   flex-direction: column;
-  margin-right: 1em;
+  margin: 1em;
   color: var(--second);
   border-radius: 1em;
 
 }
-
-/* .skillbutton {
-  display: block;
-  cursor: pointer;
-  padding: 0.6em 1.2em;
-  font-weight: 500;
-  font-size: 1rem;
-  transition: transform 0.2s ease-in-out;
-}
-
-.skillbutton:hover {
-  transform: translateY(-3px);
-} */
 
 @media screen and (min-width: 1000px) {
   .aboutTextBig {
@@ -96,14 +83,13 @@
     flex: 1;
     margin: 0em 2em 1em 0em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    aspect-ratio: 0.9/1;
   }
   #vertHeader {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
   }
 }
-
-
 
 .contact {
   display: flex;
@@ -123,4 +109,22 @@
 }
 .iconLink:hover{
   transform: translateY(-0.25em);
+}
+
+
+@media screen and (max-width: 650px) {
+  .textSide {
+    font-size: 0.9em;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+  }
+  .firstCont {
+    padding: 0.5em;
+    text-wrap: wrap;
+  }
+  .aboutTextSmall {
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
 }

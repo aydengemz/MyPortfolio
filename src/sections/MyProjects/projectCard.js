@@ -19,7 +19,7 @@ export default function ProjectCard({ project, content, skills, links, image }) 
   ));
   const linkItems = links?.map((l) => (
     <a href={l.link} className="link projIcon" key={l.id} target="_blank">
-      <l.icon sx={{ fontSize: "1.8rem" }} />
+      <l.icon sx={{fontSize: {s: "1.4em", m:"1.8rem"}}} />
     </a>
   ));
   const control = useAnimation();

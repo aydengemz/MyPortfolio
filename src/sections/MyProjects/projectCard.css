@@ -1,8 +1,7 @@
 .projectCont {
-  transition:  0.3s;
+  transition: 0.3s;
   display: flex;
   margin-top: 3em;
-
 }
 
 .skillCont {
@@ -13,6 +12,7 @@
 .skillitem {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
   padding: 0.5em;
   border: 1px solid var(--second);
   border-radius: 1em;
@@ -20,12 +20,11 @@
   font-size: 0.8em;
 }
 
-
-.projLink{
+.projLink {
   margin: 0em 0.5em 0em 0.5em;
 }
 
-.linkCont{
+.linkCont {
   margin-top: 0.8em;
   display: flex;
   flex-direction: row;
@@ -39,7 +38,6 @@
 .projIcon:hover {
   transform: translateY(-3px);
 }
-
 
 .projectText {
   margin: 0.5em 0em 0.5em 0;
@@ -56,26 +54,25 @@
   width: 100%;
   aspect-ratio: 1/0.85;
   object-fit: cover;
-
-  
 }
 
-.projRightContent{
+.projRightContent {
   padding: 1em;
   background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 2em;
   display: flex;
 }
 
-
 .projLeft {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   transition: 0.5s ease;
   background-color: white;
   padding: 2em;
   z-index: 100;
-  margin-right: -6em;
+  margin-right: -4em;
   display: flex;
   border-radius: 2em;
   flex: 1;
@@ -86,8 +83,6 @@
   margin: auto;
   flex: 1;
   transition: 0.4s;
-  margin-right: 0.5em;
-  padding-left: 3em;
 }
 
 .projLeftContent {
@@ -95,36 +90,58 @@
 }
 
 @media screen and (max-width: 1025px) {
-
-  .projLeft {
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
-    box-shadow: none;
-    margin-right: -2em;
-    font-size: 0.9rem;
-    padding: 2em;
-    z-index: 100;
-    flex: 1;
-    background-color: #FBFBFD;
-  }
-  .projRight{
-    padding-right: 0;
-  }
   .projectText {
     font-size: 0.8rem;
   }
-
-  .skillitem {
+  .projRight {
+    padding: 2em;
+  }
+  .pro .skillitem {
     font-size: 0.7em;
   }
-  .projRightContent{
-    padding: 0.5em;
-    border-radius: 2em;
-    display: flex;
+  .projRightContent {
+    padding: 1em;
   }
-
 }
 
+@media screen and (max-width: 1300px) {
+  .projectText {
+    font-size: 0.8rem;
+  }
+}
 
+@media screen and (max-width: 650px) {
+  .projectCont {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 2em;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .projectCont img {
+    border-radius: 2em;
+    aspect-ratio: 1/0.7;
+    object-fit: cover;
+  }
 
+  .projRight {
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projRightContent {
+    padding: 0em;
+    box-shadow: none;
+  }
 
-
+  .projLeft {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2em 2em 0em 2em;
+    margin-right: 0em;
+    border-radius: 2em;
+    flex: 1;
+    margin-left: 0.5em;
+  }
+}

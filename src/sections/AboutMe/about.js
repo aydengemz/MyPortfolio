@@ -7,7 +7,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="firstCont center">
+    <div id="about" className="firstCont">
       <div className="AboutSide">
       
         <img
@@ -27,21 +27,6 @@ const About = () => {
             <span className="impor">travel, swim, and play piano.</span> Overall
             though, I am a spontaneous person and just like to go with the flow.
           </p>
-          {/* <div className="aboutTextSmall">
-            <span>Technologies I'm Proficient With: </span>
-            <section id="skills">
-              <ul className="skillCont">
-                <li className="skillitem skillbutton">React</li>
-                <li className="skillitem skillbutton">Python</li>
-                <li className="skillitem skillbutton">NodeJS</li>
-                <li className="skillitem skillbutton">AWS</li>
-                <li className="skillitem skillbutton">C</li>
-                <li className="skillitem skillbutton">Swift</li>
-                <li className="skillitem skillbutton">SQL</li>
-                <li className="skillitem skillbutton">HTML</li>
-              </ul>
-            </section>
-          </div> */}
           <div className="aboutTextSmall">
      
           <div className="contact center">
@@ -55,7 +40,7 @@ const About = () => {
             target="_blank"
             className="link iconLink"
           >
-            <GitHubIcon sx={{fontSize: "1.8rem"}}/>
+            <GitHubIcon sx={{fontSize: {s: "1.4em", m:"1.8rem"}}}/>
           </a>
 
           <a
@@ -63,21 +48,21 @@ const About = () => {
             target="_blank"
             className="link iconLink"
           >
-            <LinkedInIcon sx={{fontSize: "1.8rem"}}/>
+            <LinkedInIcon sx={{fontSize: {s: "1.4em", m:"1.8rem"}}}/>
           </a>
           <a
             href="https://www.instagram.com/ayd_xu/"
             target="_blank"
             className="link iconLink"
           >
-            <InstagramIcon sx={{fontSize: "1.8rem"}}/>
+            <InstagramIcon sx={{fontSize: {s: "1.4em", m:"1.8rem"}}}/>
           </a>
           <a
             href="mailto: aydenxunc@gmail.com"
             target="_blank"
             className="link iconLink"
           >
-            <EmailIcon sx={{fontSize: "1.8rem"}}/>
+            <EmailIcon sx={{fontSize: {s: "1.4em", m:"1.8rem"}}}/>
           </a>
       </div>
           </div>
