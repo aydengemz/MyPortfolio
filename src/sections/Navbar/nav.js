@@ -14,20 +14,20 @@ const NavBar = () => {
             <a href="#about" className="link">
               About Me
             </a>
-            <div class="bar"></div>
+            <div className="bar"></div>
           </li>
           <li className="navitem">
             <a href="#projects" className="link">
               Projects
             </a>
-            <div class="bar"></div>
+            <div className="bar"></div>
           </li>
 
           <li className="navitem">
             <a href="#experiences" className="link">
               Experiences
             </a>
-            <div class="bar"></div>
+            <div className="bar"></div>
           </li>
         </ul>
       </nav>

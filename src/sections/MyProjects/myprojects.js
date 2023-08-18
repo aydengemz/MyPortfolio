@@ -81,6 +81,26 @@ const MyProjects = () => {
           ]}
           image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/penguinshooter.png?raw=true"
         ></ProjectCard>
+                <ProjectCard
+          project="EcoEye"
+          content="Used Google Image and IBM Watson APIs to label and classify various waste after taking or uploading an image.
+          Used Firebase as the database for storing past snapshots.
+          Developed the frontend with Flutter which is compiled to run on both Android and iOS.
+          "
+          skills={[
+            { id: "10", content: "Flutter" },
+            { id: "11", content: "Firebase" },
+            { id: "12", content: "AI Vision" },
+          ]}
+          links={[
+            {
+              id: "1",
+              link: "https://youtu.be/yneQpGJYK3U",
+              icon: YouTubeIcon,
+            },
+          ]}
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/penguinshooter.png?raw=true"
+        ></ProjectCard>
       </div>
     </section>
   );
