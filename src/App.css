@@ -2,10 +2,14 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
 
 :root {
-  --primary: #90a0d9;
-  --bg: #23283e;
-  --second: #CDCDFF;
-  --textC: #BDBDDC;
+  /* --primary: #90a0d9; */
+  --primary: black;
+  /* --bg: #23283e; */
+  --bg: #FBFBFD;
+  /* --second: #CDCDFF;
+  --textC: #BDBDDC; */
+  --second: black;
+  --textC: black;
   --secondary: lightskyblue;
 }
 
@@ -24,7 +28,7 @@ main {
 
 .outlinedButton {
   color: var(--primary);
-  border: 2px solid var(--primary);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   font-weight: 600;
   z-index: 1;
   border-radius: 1em;
@@ -33,11 +37,11 @@ main {
   display: block;
   transition: 0.25s;
   margin-right: 1em;
-  margin-bottom: 0.9em;
+  background-color: white;
 }
 
 .outlinedButton:hover{
-  box-shadow: 0 0.5em 0.5em -0.4em var(--primary);
+ 
   transform: translateY(-0.25em);
 }
 
@@ -69,7 +73,7 @@ main {
   opacity: 0;
   width: 100%;
   margin-top: 5px;
-  border-bottom: 3px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
   transition: all 300ms;
 }
 
@@ -77,6 +81,7 @@ main {
   color: var(--second);
   padding: 0 0 0.3em 0;
   position: relative;
+
 }
 
 

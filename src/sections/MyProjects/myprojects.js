@@ -8,14 +8,18 @@ import "./myprojects.css";
 const MyProjects = () => {
   return (
     <section id="projects" className="section projects">
-      <h2 className="capHeader">My Projects</h2>
+      <div className="capHeader">
+      <h2>My Projects</h2>
+      </div>
+
 
       <div className="projList">
         <ProjectCard
           project="GenAI"
-          content="Showcases the various possibilites of generative AI models. 
-          Technologies I used include: Streamlit, Hugging Face, OpenAI Models, and Langchain. 
-          Feel free to try the app out or view my diagram on how the app works!"
+          content="Utilized Langchain as the orchestration framework for integrating GenAI models and APIs together for unique functionalities 
+          Explored GPT4 function calling capabilities using web services such as SerpAPI and RapidAPI
+       
+          "
           skills={[
             { id: "0", content: "Langchain" },
             { id: "1", content: "Streamlit" },
@@ -34,6 +38,8 @@ const MyProjects = () => {
               icon: LaunchIcon,
             },
           ]}
+          image="https://docs.amplify.aws/assets/ogp.jpg"
+
         />
         <ProjectCard
           project="AWS Amplify"
@@ -42,6 +48,7 @@ const MyProjects = () => {
           skills={[
             { id: "3", content: "NextJS" },
             { id: "4", content: "AWS" },
+            { id: "7", content: "CRUD" },
           ]}
           links={[
             {
@@ -50,6 +57,7 @@ const MyProjects = () => {
               icon: GitHubIcon,
             },
           ]}
+          image="https://docs.amplify.aws/assets/ogp.jpg"
         ></ProjectCard>
         <ProjectCard
           project="Penguin Shooter"
@@ -57,7 +65,7 @@ const MyProjects = () => {
           Defeating eneimes gives you EXP to level up and leveling up give you power ups! "
           skills={[
             { id: "5", content: "Python" },
-            { id: "6", content: "Pathfinding" },
+            { id: "6", content: "Algorithms" },
           ]}
           links={[
             {
@@ -67,10 +75,11 @@ const MyProjects = () => {
             },
             {
               id: "1",
-              link: "https://www.youtube.com/watch?v=X2xYm5i3MjI",
+              link: "https://www.youtube.com/watch?v=52LQnWMGuWw",
               icon: YouTubeIcon,
             },
           ]}
+          image="https://docs.amplify.aws/assets/ogp.jpg"
         ></ProjectCard>
       </div>
     </section>

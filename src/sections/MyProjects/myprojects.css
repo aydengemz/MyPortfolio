@@ -1,14 +1,22 @@
 .projects{
   align-items: center;
   justify-content: center;
+  margin-top: 5em;
   
 }
 
 .projList {
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    grid-gap: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
+  @media screen and (max-width: 1000px) {
+    .projList {
+      max-width: 80%;
+    }
+
+  
+  }

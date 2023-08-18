@@ -1,7 +1,17 @@
 .heroCont {
+  display: flex;
   flex-direction: column;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.heroBox{
+  width: 80%;
+  padding: 1em 2em 2em 2em;
+  border-radius: 1em;
+
 }
 
 .name {
@@ -9,7 +19,7 @@
 }
 
 .title {
-  margin-top: 1.2em;
+  margin-top: 0.6em;
   font-size: 1.5em;
   font-weight: 200;
   color: var(--second);
@@ -21,20 +31,13 @@
 }
 
 .descrip,
-.contact {
+{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2.4em;
+  margin-top: 0em;
 }
 
-.iconLink {
-  color: var(--second);
-  margin-right: 0.8em;
-}
-.iconLink:hover .bar{
-  opacity: 1;
-  transform: translateY(-5px);
-}
+
 
 

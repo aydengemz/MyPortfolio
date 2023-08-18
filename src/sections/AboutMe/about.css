@@ -4,13 +4,13 @@
 }
 
 .firstCont {
-  margin: 1em 7em 1em 7em;
-  padding: 1em;
   border-radius: 2em;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   display: flex;
+
 }
 #vertHeader {
   color: var(--second);
@@ -20,62 +20,50 @@
 
 .AboutSide {
   display: flex;
-  width: 100%;
+  width: 80%;
   flex-direction: column;
   border-radius: 2em;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+
 }
-img {
-  margin: 2em;
-  box-shadow: var(--shadow);
+.firstCont img {
+  padding: 0.8em;
   flex: 1;
-  border-radius: 2em;
-  border: 2px solid var(--second);
-  width: 40%;
-  height: 40%;
-  min-width: 300px;
-  min-height: 300px;
-  object-fit: cover;
-  aspect-ratio: 1/1;
-  opacity: 0.8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 3em;
   transition: 0.2s ease;
-}
-img:hover {
-  opacity: 1;
+  width: 50%;
+  height: 40%;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  aspect-ratio: 0.9/1;
+  margin-bottom: 1.25em;
 }
 
 .textSide {
-  flex: 1;
-  background: none;
+  flex: 2;
+  font-size: 1.2em;
+  padding-bottom: 2em;
 }
 
 .aboutTextBig {
-  padding: 1em;
+  padding: 0em 1em 0em 1em;
   color: var(--second);
   border-radius: 1em;
-  border: 2px solid var(--textC);
-  font-size: 0.9em;
-  margin: 0em 0em 1em 0em;
+  margin-bottom: 1em;
 }
 .aboutTextSmall {
-  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
   color: var(--second);
   border-radius: 1em;
-  border: 2px solid var(--textC);
-  font-size: 0.8em;
-  width: 80%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
 }
 
-.aboutTextSmall span {
-  margin: 0.5em;
-}
-
-.skillbutton {
+/* .skillbutton {
   display: block;
   cursor: pointer;
   padding: 0.6em 1.2em;
@@ -86,11 +74,15 @@ img:hover {
 
 .skillbutton:hover {
   transform: translateY(-3px);
-}
+} */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1000px) {
   .aboutTextBig {
     font-size: 1em;
+  }
+  .textSide{
+    flex: 1.8;
+    font-size: 1.3em;
   }
   .aboutTextSmall {
     font-size: 0.9em;
@@ -100,8 +92,10 @@ img:hover {
   .AboutSide {
     flex-direction: row;
   }
-  img {
-    margin: 0em 2em 0em 0em;
+  .firstCont img {
+    flex: 1;
+    margin: 0em 2em 1em 0em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
   #vertHeader {
     writing-mode: tb-rl;
@@ -109,17 +103,24 @@ img:hover {
   }
 }
 
-.skillCont {
-  width: 95%;
+
+
+.contact {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  margin-top: 0.4em;
 }
 
-.skillitem {
-  margin: 0.5em;
-  border: 1px solid var(--second);
+.iconLink {
+  color: var(--second);
+  background-color: white;
+  margin-right: 0.8em;
+  padding: 0.45em 0.85em 0.45em 0.85em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 1em;
-  color: var(--textC);
-  font-size: 0.8em;
+  transition: 0.25s;
+}
+.iconLink:hover{
+  transform: translateY(-0.25em);
 }

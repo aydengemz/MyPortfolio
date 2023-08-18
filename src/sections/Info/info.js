@@ -31,8 +31,6 @@ export default function Info(){
             />
           </a>
         </div>
-
-        <h3 className="WrapUpText">Thanks for Reading :D</h3>
       </div>
     </section>
   );

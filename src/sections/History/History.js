@@ -5,8 +5,9 @@ import "./History.css";
 function History() {
   return (
     <div id="experiences" className="timelineContainer">
+      <h2 className="capHeader">Experiences</h2>
       <div className="c2">
-        <h2 className="capHeader">Experiences</h2>
+
         <HistoryCell
           year="June 2023 - Aug 2023"
           title="Lastwall Networks"
