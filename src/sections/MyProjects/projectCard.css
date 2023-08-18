@@ -57,7 +57,7 @@
   height: 80%;
   width: 100%;
   aspect-ratio: 1/0.75;
-  object-fit: cover;
+  object-fit: fill;
   
 }
 

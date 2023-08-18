@@ -38,7 +38,7 @@ const MyProjects = () => {
               icon: LaunchIcon,
             },
           ]}
-          image="https://docs.amplify.aws/assets/ogp.jpg"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/genai.png?raw=true"
 
         />
         <ProjectCard
@@ -79,7 +79,7 @@ const MyProjects = () => {
               icon: YouTubeIcon,
             },
           ]}
-          image="https://docs.amplify.aws/assets/ogp.jpg"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/penguinshooter.png?raw=true"
         ></ProjectCard>
       </div>
     </section>
