@@ -99,7 +99,7 @@ const MyProjects = () => {
               icon: YouTubeIcon,
             },
           ]}
-          image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/ecoeye.png?raw=true"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/src/sections/MyProjects/EcoEyeBG.png?raw=true"
         ></ProjectCard>
       </div>
     </section>
