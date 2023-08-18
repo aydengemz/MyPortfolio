@@ -38,7 +38,7 @@ const MyProjects = () => {
               icon: LaunchIcon,
             },
           ]}
-          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/Untitled%20design%20(3).png?raw=true"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/genai.png?raw=true"
 
         />
         <ProjectCard
@@ -79,7 +79,7 @@ const MyProjects = () => {
               icon: YouTubeIcon,
             },
           ]}
-          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/Untitled%20design%20(2).png?raw=true"
+          image="https://github.com/aydengemz/MyPortfolio/blob/main/public/penguinshooter.png?raw=true"
         ></ProjectCard>
       </div>
     </section>
