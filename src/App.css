@@ -62,8 +62,8 @@ main {
 .capHeader{
   text-align: center;
   color: var(--second);
-  padding: 0.5em 0.5em 0.5em 0.5em;
-  border: 2px solid black;
+  margin-bottom: 1em;
+
   border-radius: 1em;
 }
 
