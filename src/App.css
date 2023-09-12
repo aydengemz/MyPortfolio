@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
 
 :root {
   /* --primary: #90a0d9; */
@@ -61,8 +61,10 @@ main {
 
 .capHeader{
   text-align: center;
-  margin: 0em 0em 1em 0em;
   color: var(--second);
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border: 2px solid black;
+  border-radius: 1em;
 }
 
 .center {
@@ -83,7 +85,6 @@ main {
   position: relative;
 
 }
-
 
 
 
