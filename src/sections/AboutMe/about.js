@@ -11,7 +11,7 @@ const About = () => {
       <div className="AboutSide">
       
         <img
-          src="https://github.com/aydengemz/MyPortfolio/blob/f6fb15975b64a320b3526796bf262194ea1ffaf6/public/profile.png?raw=true"
+          src="https://github.com/aydengemz/MyPortfolio/blob/main/public/pfpcrop.png?raw=true"
           alt="PFP"
         ></img>
         <div className="textSide">
