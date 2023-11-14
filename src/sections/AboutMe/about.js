@@ -30,7 +30,7 @@ const About = () => {
           <div className="aboutTextSmall">
      
           <div className="contact center">
-        <a href="AydenXu-Resume2023.pdf" target="_blank" download>
+        <a href="AydenXu-Resume2025.pdf" target="_blank" download>
             <span type="button" className="outlinedButton">
             Resume
           </span>
