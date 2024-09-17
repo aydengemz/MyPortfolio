@@ -1,0 +1,152 @@
+.projectCont {
+  transition: 0.3s;
+  display: flex;
+}
+.projLeft {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s ease;
+  background-color: white;
+  padding: 2em;
+  z-index: 100;
+  display: flex;
+  flex: 1;
+  margin-left: 0.5em;
+}
+.skillCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skillitem {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: 1px solid var(--second);
+  border-radius: 1em;
+  color: var(--textC);
+  font-size: 0.8em;
+}
+.projLink {
+  margin: 0em 0.5em 0em 0.5em;
+}
+.linkCont {
+  margin-top: 0.8em;
+  display: flex;
+  flex-direction: row;
+}
+.projIcon {
+  color: var(--second);
+  margin-right: 1em;
+  border-radius: 100%;
+  transition: 0.25s;
+}
+.projIcon:hover {
+  transform: translateY(-3px);
+}
+.projectText {
+  font-weight: 300;
+  margin: 0.5em 0em 0.5em 0;
+  font-size: 0.9rem;
+  color: var(--textC);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .projectText {
+    font-size: 0.8rem;
+  }
+  .projRight {
+    padding: 2em;
+  }
+  .pro .skillitem {
+    font-size: 0.7em;
+  }
+  .projRightContent {
+    padding: 1em;
+  }
+}
+
+
+/* 
+
+
+
+
+
+
+
+.projectCont img {
+  border-radius: 2em;
+  transition: 0.2s ease;
+  min-width: 150px;
+  min-height: 125px;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1/0.85;
+  object-fit: cover;
+}
+
+.projRightContent {
+  padding: 1em;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 2em;
+  display: flex;
+}
+
+
+
+.projRight {
+  margin: auto;
+  flex: 1;
+  transition: 0.4s;
+}
+
+.projLeftContent {
+  margin: auto;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .projectText {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projectCont {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 2em;
+    flex-direction: column;
+    padding: 1em;
+  }
+  .projectCont img {
+    border-radius: 2em;
+    aspect-ratio: 1/0.7;
+    object-fit: cover;
+  }
+
+  .projRight {
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projRightContent {
+    padding: 0em;
+    box-shadow: none;
+  }
+
+  .projLeft {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 2em 2em 0em 2em;
+    margin-right: 0em;
+    border-radius: 2em;
+    flex: 1;
+    margin-left: 0.5em;
+  }
+} */

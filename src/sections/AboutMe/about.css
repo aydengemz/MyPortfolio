@@ -1,0 +1,133 @@
+.impor {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.firstCont {
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s ease;
+  width: 100%;
+}
+#vertHeader {
+  color: var(--second);
+  margin: 1em;
+}
+
+.AboutSide {
+  display: flex;
+  max-width: 650px;
+  flex-direction: column;
+  border-radius: 2em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.firstCont img {
+  padding: 0.8em;
+  flex: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 0em;
+  transition: 0.2s ease;
+  min-width: 300px;
+  min-height: 300px;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  margin-bottom: 1.25em;
+}
+
+.textSide {
+  flex: 2;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.aboutTextBig {
+  color: var(--second);
+  margin: 1em;
+  background-color: #FBFBFD;
+  padding: 2em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.aboutTextSmall {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  color: var(--second);
+  border-radius: 1em;
+
+}
+
+@media screen and (min-width: 1000px) {
+  .aboutTextBig {
+    font-size: 1em;
+  }
+  .textSide{
+    font-size: 1.2em;
+  }
+  .aboutTextSmall {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+  }
+  .AboutSide {
+    flex-direction: row;
+    max-width: 1000px;
+
+  }
+  .firstCont img {
+    flex: 1;
+    margin: 0em 2em 1em 0em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    aspect-ratio: 1/1;
+  }
+  #vertHeader {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.4em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  color: white;
+}
+
+.iconLink {
+  color: var(--second);
+  margin-right: 0.8em;
+  padding: 0.45em 0.85em 0.45em 0.85em;
+  /* border-radius: 1em; */
+  transition: 0.25s;
+}
+.iconLink:hover{
+  transform: translateY(-0.25em);
+}
+
+
+@media screen and (max-width: 650px) {
+  .textSide {
+    font-size: 0.9em;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+  }
+  .firstCont {
+    padding: 0.5em;
+    text-wrap: wrap;
+  }
+  .aboutTextSmall {
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+}
