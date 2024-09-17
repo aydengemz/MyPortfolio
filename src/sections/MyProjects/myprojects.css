@@ -1,31 +1,28 @@
 .projects{
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
-
-  
+  max-width: 1000px;
+  margin: 0 auto;
+  transition: 0.3 ease;
 }
 .projList {
-
-    max-width: 85%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
 
   }
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (max-width: 1000px) {
     .projList {
-      grid-template-columns: repeat(2, 1fr);
-      max-width: 90%;
-      grid-column-gap: 1em;
+      max-width: 650px;
+      grid-template-columns: repeat(1, 1fr);
     }
 
   }
   @media screen and (max-width: 650px){
     .projects{
-      margin-top: 2em;
+      margin-top: 1em;
       
     }
   }

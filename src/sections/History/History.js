@@ -5,27 +5,34 @@ import "./History.css";
 function History() {
   return (
     <div id="experiences" className="timelineContainer">
-      <h2 className="capHeader">Experiences</h2>
+      <h3 className="smallheader">EXPERIENCES</h3>
       <div className="c2">
-
-        <HistoryCell
-          year="June 2023 - Aug 2023"
-          title="Lastwall Networks"
+      <HistoryCell
+          year="September 2024 - Present" 
+          title="Software Developer Intern @ Zeed AI"
+          duration="London, England"
+          details="Currently Here"
+          role="Software Developer Intern"
+        />
+      <HistoryCell
+          year="June 2023 - Aug 2023" 
+          title="Machine Learning Intern @ Lastwall Networks"
           duration="New Brunswick, Canada"
-          details="Travelled to the office in New Brunsick, Canada and took part in the software development team. Here I collaborated in an Agile development process with cross-functional team sprints and daily scrums. Additionally, in my time there, I improved the accuracy of software by 60% by testing the code and analyzing
-          the datasets."
+          details="During this internship, I implemented supervised and unsupervised deep learning models using PyTorch, scikit-learn, and NumPy on risk-based authentication (RBA) data, achieving 100% test accuracy. To overcome local hardware limitations, I utilized AWS SageMaker for scalable model training. I also performed hyperparameter optimization with grid search and k-fold cross-validation, while executing comprehensive data preprocessing, including batching, cleaning, and normalization, to address data imbalance and prevent overfitting."
+          role="Machine Learning Intern"
         />
         <HistoryCell
           year="Aug 2022 - Present"
-          title="Carnegie Mellon University"
+          title="AI Research Assisstant @ Carnegie Mellon University"
           duration="Pittsburgh, PA"
-          details="Currently pursuing a BS in Information Systems + Minor in AI. Some relevant coursework I have taken includes: Data Structures, Intro to Machine Learning, Intro to Deep Learning, Natural Language Processing, Database Design, Matrices and Linear Transformations, Concepts of Mathematics,  and Probability Theory. Some clubs I am a part of include Data Science Club and Asian Student Association."
+          details="As part of my research role, I authored over four curriculum modules for an IRB-reviewed research study, focusing on advanced machine learning (ML) and natural language processing (NLP) concepts. I also conducted an in-depth evaluation of chatbot development platforms such as Botpress, assessing their applicability in educational contexts."
         />
         <HistoryCell
-          year="Aug 2018 - June 2022"
-          title="Chapel Hill High"
-          duration="Chapel Hill, NC"
-          details="My Coding Journey began here where I was first introduced to Java by my AP Computer Science teacher. During my time here, I mainly worked on Mobile App development (Swift and Flutter) also started participating in app competitions."
+          year="June 2023 - Aug 2023" 
+          title="Software Developer Intern @ Lastwall Networks"
+          duration="New Brunswick, Canada"
+          details="In this internship at Lastwall, I enhanced the precision of risk-based authentication software through data analysis with SQL and rigorous backend testing in TypeScript. I achieved universal UI responsiveness across devices using ReactJS, implementing flex/grid layouts and relative sizing. Additionally, I collaborated with cross-functional Agile teams in NIST-compliant sprints, adhering to stringent security protocols throughout the development process."
+          role="Software Developer Intern"
         />
       </div>
     </div>

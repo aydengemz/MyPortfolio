@@ -11,21 +11,15 @@ const About = () => {
       <div className="AboutSide">
       
         <img
-          src="https://github.com/aydengemz/MyPortfolio/blob/main/public/pfpcrop.png?raw=true"
+          src="https://github.com/aydengemz/MyPortfolio/blob/main/public/profilepic.png?raw=true"
           alt="PFP"
         ></img>
         <div className="textSide">
           <p className="aboutTextBig">
             Hi! I am <span className="impor">Ayden</span>, 
-            a sophomore at{" "}
+            a Junior at{" "}
             <span className="impor">Carnegie Mellon University</span> originally from Chapel Hill, North Carolina.
-            I've always had a passion for{" "}
-            <span className="impor">Web Development</span>, but recently I have
-            developed an interest for
-            <span className="impor">AI/Machine Learning!</span> In my free time
-            I also like to{" "}
-            <span className="impor">travel, swim, and play piano.</span> Overall
-            though, I am a spontaneous person and just like to go with the flow.
+            I'm currently studying Information Systems + AI. Currently, I am studying abroad in Copenhagen!
           </p>
           <div className="aboutTextSmall">
      

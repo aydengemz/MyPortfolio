@@ -1,7 +1,7 @@
 import React from 'react';
 import './HistoryCell.css'
 
-function HistoryCell({ year, title, duration, details }) {
+function HistoryCell({ year, title, duration, details, img }) {
    return (
       <div className="cellBorder">
          <div className="marginCont">
@@ -17,9 +17,13 @@ function HistoryCell({ year, title, duration, details }) {
                   {duration}
                </div>
             </span>
+            <div clasName="Role">
+            <img src={img}></img>
             <p className="cellDetail">
                {details}
             </p>
+            </div>
+
          </div>
       </div>
    )

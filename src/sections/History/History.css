@@ -1,24 +1,23 @@
 .timelineContainer {
     display: flex; 
-    margin-top: 5.5rem;
-    margin-bottom: 3rem; 
+    margin-top: 2em;
     flex-direction: column; 
-    justify-content: center; 
-    align-items: center;
     color: var(--second); 
+    max-width: 1000px;
+    margin: 0 auto;
+    transition: 0.3s ease;
 }
-.c2 {
-    padding: 2em;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 2em;
-    width: 60%;
+.capHeader {
+    margin-top: 2em;
 }
 
-@media (max-width: 768px){
+.c2 {
+    width: 100%;
+}
+
+@media (max-width: 1000px){
     .timelineContainer {
         flex-direction: column;
-    }
-    .c2 {
-        width: 7/12;
+        max-width: 650px;
     }
 }

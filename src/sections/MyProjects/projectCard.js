@@ -53,12 +53,12 @@ export default function ProjectCard({ project, content, skills, links, image }) 
           <div className="linkCont">{linkItems}</div>
         </div>
       </div>
-
+{/* 
       <div className="projRight">
         <div className="projRightContent">
           <img src={image}/>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }
